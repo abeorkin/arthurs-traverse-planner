@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Western Arthurs Backpacking Planner</title>
+
+  <!-- CesiumJS CDN -->
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.141/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.141/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <!-- Project CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h1>Western Arthurs Backpacking Planner</h1>
+
+      <p class="subtitle">
+        A 3D planning map for exploring camps, route options, terrain and key trip information in the Western Arthur Range, Tasmania.
+      </p>
+
+      <section class="panel-section">
+        <h2>Map layers</h2>
+
+        <label>
+          <input type="checkbox" id="toggleTrail" checked>
+          Trail route
+        </label>
+
+        <label>
+          <input type="checkbox" id="toggleCamps" checked>
+          Camps and waypoints
+        </label>
+      </section>
+
+      <section class="panel-section">
+        <h2>Selected camp</h2>
+        <div id="selectedCamp">
+          Click a camp marker to view details.
+        </div>
+      </section>
+      <section class="panel-section">
+  <h2>Selected itinerary</h2>
+
+  <div class="itinerary-buttons">
+    <button id="addToItinerary" disabled>Add selected camp</button>
+    <button id="undoItinerary" disabled>Undo last</button>
+    <button id="clearItinerary" disabled>Clear</button>
+  </div>
+
+  <div id="itineraryList" class="itinerary-empty">
+    No camps added yet.
+  </div>
+</section>
+
+      <section class="panel-section">
+        <h2>Check conditions</h2>
+        <a href="https://www.bom.gov.au/tas/forecasts/" target="_blank">BOM Tasmania forecasts</a>
+        <a href="https://parks.tas.gov.au/explore-our-parks/know-before-you-go/safety-in-parks" target="_blank">Parks Tasmania safety</a>
+        <a href="https://parks.tas.gov.au/explore-our-parks/southwest-national-park" target="_blank">Southwest National Park</a>
+        <a href="https://www.windy.com/" target="_blank">Windy weather map</a>
+      </section>
+
+      <section class="panel-section warning">
+        <h2>Planning note</h2>
+        <p>
+          This web map is a planning and portfolio tool only. It is not a replacement for official maps, current track notes, weather forecasts, navigation skills or emergency planning.
+        </p>
+      </section>
+    </aside>
+
+    <main id="mapArea">
+  <div id="cesiumContainer"></div>
+
+  <div id="elevationPanel">
+    <div class="elevation-header">
+      <strong>Elevation profile</strong>
+      <span id="profileStats">Loading profile...</span>
+    </div>
+    <canvas id="elevationChart"></canvas>
+  </div>
+</main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

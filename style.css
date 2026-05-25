@@ -1,0 +1,196 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111;
+}
+
+#app {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 340px;
+  padding: 20px;
+  background: #101820;
+  color: #f5f5f5;
+  overflow-y: auto;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.35);
+  z-index: 5;
+}
+
+#sidebar h1 {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 0 0 10px 0;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #c7d0d9;
+  line-height: 1.45;
+  margin-bottom: 20px;
+}
+
+.panel-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+.panel-section h2 {
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+
+.panel-section label {
+  display: block;
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.panel-section a {
+  display: block;
+  color: #8fd3ff;
+  text-decoration: none;
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.panel-section a:hover {
+  text-decoration: underline;
+}
+
+.warning {
+  background: rgba(255, 190, 90, 0.1);
+  border: 1px solid rgba(255, 190, 90, 0.35);
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.warning p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #ffdca8;
+}
+
+#selectedCamp {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #d7e2ea;
+}
+
+#mapArea {
+  flex: 1;
+  position: relative;
+}
+
+#cesiumContainer {
+  width: 100%;
+  height: 100%;
+}
+
+#elevationPanel {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  height: 210px;
+  background: rgba(12, 18, 24, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+  padding: 12px 14px 10px 14px;
+  z-index: 10;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+}
+
+.elevation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+#profileStats {
+  color: #c7d0d9;
+  font-size: 0.8rem;
+}
+
+#elevationChart {
+  width: 100% !important;
+  height: 165px !important;
+}
+
+.itinerary-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.itinerary-buttons button {
+  background: #f3e6c8;
+  color: #111111;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.itinerary-buttons button:hover:not(:disabled) {
+  background: #ffffff;
+}
+
+.itinerary-buttons button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.itinerary-empty {
+  font-size: 0.9rem;
+  color: #aab7c4;
+  line-height: 1.45;
+}
+
+.itinerary-item {
+  margin: 8px 0;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 3px solid #f28c28;
+  border-radius: 6px;
+}
+
+.itinerary-item strong {
+  color: #ffffff;
+}
+
+.itinerary-meta {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  color: #c7d0d9;
+}
+
+.itinerary-leg {
+  margin: 6px 0 6px 16px;
+  font-size: 0.82rem;
+  color: #f3e6c8;
+}
+
+.itinerary-summary {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 0.86rem;
+  color: #ffffff;
+  line-height: 1.5;
+}
