@@ -1,0 +1,386 @@
+{
+  "type": "FeatureCollection",
+  "name": "arthurs_western_camps",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scotts Peak Dman Trailhead",
+        "camp_type": "trailhead",
+        "water_availability": "Yes",
+        "water_notes": "Needs filtering, sometimes has mosquito larvae",
+        "tent_spots": 15,
+        "tent_platforms": "No",
+        "toilet": "Yes",
+        "exposure": "Sheltered",
+        "notes": "Can be busy",
+        "source": "secondary uploaded GPX",
+        "raw_camp_id": "Trailhead",
+        "camp_id_clean": "trailhead",
+        "id_quality_note": "camp_id_sanitised",
+        "camp_id": "trailhead",
+        "display_latitude": -43.033491,
+        "display_longitude": 146.29266,
+        "snapped_latitude": -43.038942,
+        "snapped_longitude": 146.292875,
+        "snap_distance_m": 605.6,
+        "route_chainage_km": 0.524,
+        "snap_status": "REVIEW_OVER_300M",
+        "data_quality_flags": "camp_more_than_300m_from_route"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.29266,
+          -43.033491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Junction Creek",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "Clean, fast flowing creek",
+        "tent_spots": 8,
+        "tent_platforms": "No",
+        "toilet": "Yes",
+        "exposure": "Sheltered",
+        "notes": "Lots of flies",
+        "source": "secondary uploaded GPX",
+        "raw_camp_id": "wa_camp_8",
+        "camp_id_clean": "wa_camp_8",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_8",
+        "display_latitude": -43.096782,
+        "display_longitude": 146.279444,
+        "snapped_latitude": -43.0967517,
+        "snapped_longitude": 146.2794235,
+        "snap_distance_m": 3.8,
+        "route_chainage_km": 8.69,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.279444,
+          -43.096782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emergency Camp 1",
+        "camp_type": "emergency_camp",
+        "water_availability": "Maybe",
+        "water_notes": "Small stream, hard to find",
+        "tent_spots": 4,
+        "tent_platforms": "No",
+        "toilet": "unknown",
+        "exposure": "Moderately Sheltered",
+        "notes": "Unknown",
+        "source": "secondary uploaded GPX",
+        "raw_camp_id": "wa_emergency -camp_1",
+        "camp_id_clean": "wa_emergency_camp_1",
+        "id_quality_note": "camp_id_sanitised",
+        "camp_id": "wa_emergency_camp_1",
+        "display_latitude": -43.106894,
+        "display_longitude": 146.247978,
+        "snapped_latitude": -43.1069233,
+        "snapped_longitude": 146.248024,
+        "snap_distance_m": 5.0,
+        "route_chainage_km": 11.77,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.247978,
+          -43.106894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Cygnus",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "Big Lake ",
+        "tent_spots": 6,
+        "tent_platforms": "Yes",
+        "toilet": "Yes",
+        "exposure": "Sheltered",
+        "notes": "",
+        "source": "",
+        "raw_camp_id": "wa_camp_2",
+        "camp_id_clean": "wa_camp_2",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_2",
+        "display_latitude": -43.129389,
+        "display_longitude": 146.2358739,
+        "snapped_latitude": -43.129382,
+        "snapped_longitude": 146.2358736,
+        "snap_distance_m": 0.8,
+        "route_chainage_km": 16.346,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2358739,
+          -43.129389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Oberon",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "Big Lake ",
+        "tent_spots": 5,
+        "tent_platforms": "Yes",
+        "toilet": "Yes",
+        "exposure": "Sheltered",
+        "notes": "",
+        "source": "secondary uploaded GPX",
+        "raw_camp_id": "wa_camp_3",
+        "camp_id_clean": "wa_camp_3",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_3",
+        "display_latitude": -43.1472419,
+        "display_longitude": 146.2693118,
+        "snapped_latitude": -43.1472217,
+        "snapped_longitude": 146.2693127,
+        "snap_distance_m": 2.2,
+        "route_chainage_km": 21.306,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.2693118,
+          -43.1472419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "High Moor",
+        "camp_type": "camp",
+        "water_availability": "Mostly ",
+        "water_notes": "Large Puddle",
+        "tent_spots": 6,
+        "tent_platforms": "Yes",
+        "toilet": "Yes",
+        "exposure": "Poorly Sheltered",
+        "notes": "Great sunrise/sunset views",
+        "source": "",
+        "raw_camp_id": "wa_camp_4",
+        "camp_id_clean": "wa_camp_4",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_4",
+        "display_latitude": -43.164873,
+        "display_longitude": 146.29941,
+        "snapped_latitude": -43.1648735,
+        "snapped_longitude": 146.29941,
+        "snap_distance_m": 0.1,
+        "route_chainage_km": 25.563,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.29941,
+          -43.164873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haven Lake",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "Big Lake ",
+        "tent_spots": 5,
+        "tent_platforms": "Yes",
+        "toilet": "Yes",
+        "exposure": "Moderately Sheltered",
+        "notes": "Draft from GPX waypoint; verify manually",
+        "source": "secondary uploaded GPX",
+        "raw_camp_id": "wa_camp_5",
+        "camp_id_clean": "wa_camp_5",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_5",
+        "display_latitude": -43.170987,
+        "display_longitude": 146.334724,
+        "snapped_latitude": -43.1709887,
+        "snapped_longitude": 146.3347118,
+        "snap_distance_m": 1.0,
+        "route_chainage_km": 29.642,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.334724,
+          -43.170987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Promontory Lake",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "Lake",
+        "tent_spots": 6,
+        "tent_platforms": "No",
+        "toilet": "No",
+        "exposure": "Poorly Sheltered",
+        "notes": "Draft from GPX waypoint; verify manually",
+        "source": "secondary uploaded GPX",
+        "raw_camp_id": "wa_camp_6",
+        "camp_id_clean": "wa_camp_6",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_6",
+        "display_latitude": -43.166703,
+        "display_longitude": 146.362378,
+        "snapped_latitude": -43.16687,
+        "snapped_longitude": 146.362529,
+        "snap_distance_m": 22.2,
+        "route_chainage_km": 34.368,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.362378,
+          -43.166703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Rosanne",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "Lake",
+        "tent_spots": 4,
+        "tent_platforms": "No",
+        "toilet": "No",
+        "exposure": "Poorly Sheltered",
+        "notes": "Wet tent sites",
+        "source": "",
+        "raw_camp_id": "wa_camp_7",
+        "camp_id_clean": "wa_camp_7",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_7",
+        "display_latitude": -43.181369,
+        "display_longitude": 146.432877,
+        "snapped_latitude": -43.181369,
+        "snapped_longitude": 146.432877,
+        "snap_distance_m": 0.0,
+        "route_chainage_km": 44.028,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.432877,
+          -43.181369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Crackoft Crossing",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "River",
+        "tent_spots": 6,
+        "tent_platforms": "No",
+        "toilet": "No",
+        "exposure": "Sheltered",
+        "notes": "Muddy",
+        "source": "",
+        "raw_camp_id": "wa_camp_8",
+        "camp_id_clean": "wa_camp_8_crackoft_crossing",
+        "id_quality_note": "duplicate_raw_camp_id_cleaned_from_wa_camp_8",
+        "camp_id": "wa_camp_8_crackoft_crossing",
+        "display_latitude": -43.151782,
+        "display_longitude": 146.466733,
+        "snapped_latitude": -43.151782,
+        "snapped_longitude": 146.466733,
+        "snap_distance_m": 0.0,
+        "route_chainage_km": 49.539,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.466733,
+          -43.151782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seven Mile Creek",
+        "camp_type": "camp",
+        "water_availability": "Yes",
+        "water_notes": "River",
+        "tent_spots": 8,
+        "tent_platforms": "No",
+        "toilet": "No",
+        "exposure": "Sheltered",
+        "notes": "Hard to cross river when high",
+        "source": "",
+        "raw_camp_id": "wa_camp_9",
+        "camp_id_clean": "wa_camp_9",
+        "id_quality_note": "",
+        "camp_id": "wa_camp_9",
+        "display_latitude": -43.12668,
+        "display_longitude": 146.38967,
+        "snapped_latitude": -43.1266496,
+        "snapped_longitude": 146.3896578,
+        "snap_distance_m": 3.5,
+        "route_chainage_km": 57.283,
+        "snap_status": "OK_WITHIN_300M",
+        "data_quality_flags": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.38967,
+          -43.12668
+        ]
+      }
+    }
+  ]
+}
